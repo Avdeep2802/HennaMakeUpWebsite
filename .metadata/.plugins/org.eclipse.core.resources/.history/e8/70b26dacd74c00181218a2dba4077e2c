@@ -1,0 +1,14 @@
+var mysql = require('mysql');
+var session = require('express-session');
+var passport = require('passport');
+const bcrypt = require('bcrypt');
+var expressValidator = require('express-validator');
+global.sessData; 
+var db = require('../db');
+
+
+exports.signup = function(req, res){
+	
+	
+	
+}
